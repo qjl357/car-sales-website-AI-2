@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Access Console · Used Car Platform</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="pages.css">
+</head>
+<body>
+  <main class="page-shell lt-shell">
+    <header class="lt-topbar">
+      <a class="lt-back" href="home.html" aria-label="Back to control">‹</a>
+      <div class="lt-brand-block">
+        <p class="lt-brand">Account Management</p>
+        <h1>User Access Console</h1>
+      </div>
+      <nav class="lt-nav">
+        <a class="lt-nav-link" href="home.html">Home</a>
+        <a class="lt-nav-link" href="publish.html">Publish</a>
+        <a class="lt-nav-link" href="login.html">Login</a>
+      </nav>
+    </header>
+
+    <section class="lt-layout">
+      <aside class="lt-left-panel">
+        <div class="lt-left-head">
+          <p class="lt-left-kicker">User Identity</p>
+          <h2>Login / Register</h2>
+          <p class="lt-subtitle">Login to publish vehicles, manage listings and use all platform services safely.</p>
+        </div>
+
+        <div class="tabs">
+          <button class="tab-btn active" type="button">Login</button>
+          <button class="tab-btn" type="button">Register</button>
+        </div>
+
+        <p class="hint">Please enter your account information to complete identity verification.</p>
+      </aside>
+
+      <section class="lt-right-stream">
+        <article class="lt-mission-row">
+          <div class="lt-mission-meta">
+            <span class="lt-chip">Account Verification</span>
+            <strong>Account Login & Authentication</strong>
+          </div>
+          <div class="lt-stream-list">
+            <form class="lt-form-stack" action="#" method="post">
+              <section class="lt-form-stage">
+                <h2 class="lt-form-head">Account Information</h2>
+                <p class="lt-form-note">Enter your account details to login.</p>
+                <div class="lt-field-grid">
+                  <div>
+                    <label for="auth-phone">Phone Number</label>
+                    <input class="input" id="auth-phone" name="phone" type="tel" placeholder="Please enter your phone number">
+                  </div>
+                  <div>
+                    <label for="auth-username">Username</label>
+                    <input class="input" id="auth-username" name="username" type="text" placeholder="Please enter your username">
+                  </div>
+                  <div>
+                    <label for="auth-password">Password</label>
+                    <input class="input" id="auth-password" name="password" type="password" placeholder="Please enter your password">
+                  </div>
+                </div>
+                <div class="lt-row-actions">
+                  <button class="btn btn-primary" type="submit">Submit</button>
+                  <button class="btn btn-ghost" type="reset">Reset</button>
+                </div>
+              </section>
+            </form>
+          </div>
+        </article>
+      </section>
+    </section>
+  </main>
+</body>
+</html>
